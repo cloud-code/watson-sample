@@ -1,0 +1,12 @@
+body {
+	padding: 1rem;
+}
+
+.wa-audio {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.wa-text-input {
+	min-width: 50rem;
+}

@@ -1,0 +1,11 @@
+<h2>Text ot Speech sample</h2>
+<form class="form-inline">
+	<div class="form-group">
+		<input class="form-control wa-text-input" type="text" placeholder="type text to say" data-ng-model="ui.textToSay">
+	</div>
+	<button class="btn btn-primary" data-ng-click="loadText()">Load Text to Say</button>
+</form>
+<div class="wa-audio">
+	<audio data-ng-src="{{ui.soundUrl}}" controls="controls"></audio>
+</div>
+
